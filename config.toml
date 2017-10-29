@@ -1,0 +1,166 @@
+#baseURL = "http://www.lucamerolla.com"
+baseURL = "https://lucamerolla.github.io/"
+languageCode = "en-us"
+title = "Luca Merolla - Personal Page"
+
+theme = "hugo-identity-theme"
+
+# Changing public to docs for github
+publishDir = "docs"
+
+# Disable unnecessary kinds
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
+
+# Enter your tracking code to enable Google Analytics
+#googleAnalytics = "UA-XXXXX-Y"
+
+[params]
+  
+  # Images settings
+  # Icons, backgrounds and avatars folders are placed in theme's static/images folder.
+  # You may place your images in corresponding folders and then set only filenames below to
+  # change page's appearance
+
+  # Site icons
+  favicon_ico = "favicon.ico"
+  favicon_ico_sizes = "16x16 32x32"
+  appleicon = "apple.png"
+
+  # Additional options to supplement icons served
+  #favicon_png = "favicon.png"
+  #favicon_png_sizes = "96x96"
+  #favicon_svg = "favicon.svg"
+
+  # Link custom assets relative to /static
+  #custom_js  = [""]
+  custom_css = ["/background.css"]
+
+  # Customization switches
+  # Overwrite FontAwesome: see icons.css
+  #custom_icons = true
+  # Overwrite background: see background.css
+  custom_background = true
+
+  # Personal data
+  [params.personal]
+    # If name is not set, author is used
+    name = "Luca Merolla"
+    # Avatars can be written to images/avatars/
+    avatar = "/895-squared.jpg"
+    position = "ICO Advisor, Business Angel, Speaker, Startup Mentor, Blockchain Consultant"
+    livesIn = "[St-Prex, Switzerland](https://www.google.ch/maps/place/Saint-Prex/@46.4658987,6.4035153,12z/data=!3m1!4b1!4m5!3m4!1s0x478c39b501ea0fe1:0xdc0de6e932131cda!8m2!3d46.4829113!4d6.4583435)"
+    articles = [
+        "Grow a Culture of Innovation [(Linkedin)](https://www.linkedin.com/pulse/grow-culture-innovation-luca-merolla)",
+        "The Agile Sprint Report Canvas [(Wordpress)] (https://lucamerolla.wordpress.com/2014/05/16/agile-sprint-report-canvas/)",
+        "How to drive change in companies [(Linkedin)](https://www.linkedin.com/pulse/20140722200624-24854307-how-to-drive-change-in-companies)",
+        "Why is innovation so important? [(Linkedin)](https://www.linkedin.com/pulse/why-innovation-so-important-luca-merolla)",
+        "How by NOT asking questions can help to grow a team [(Linkedin)](https://www.linkedin.com/pulse/20140902221203-24854307-how-by-not-asking-questions-will-help-a-team-to-grow)"
+      ]
+    biography = """Luca is very passionate about Innovation, Crypto Currencies and removing Learning inhibitors from organizations. Luca has a multi disciplinary background in the fields of information technology, business and management and holds a B.Sc. in IT Engineering and an MBA with specialization in international business and venture capital.
+    \nDuring his career, Luca has had the opportunity and the privilege to work in different countries (Ireland, Netherlands, Italy and Switzerland) with fast growing start-ups, large enterprises and as well as consultant for a business incubator.
+    \nLuca worked for Swissquote Bank where he was Vice-Director and Member of Senior Management. Luca has helped Swissquote in growing the offshore department up to approximately 150 people. Luca was in charge of the innovation committee which has organized 3 innovation contests (Battle Dev) with more than 100 employees involved in creating innovative ideas in a time-boxed event of 24 hours.
+    \nLuca is an ICO Advisor, Business Angel and startup mentor with strong interests in FinTech, Blockchain, Machine Learning and AI topics. Luca is currently CEO of Guruvest an Open Investment Platform which is preparing its Initial Coin Offering on Ethereum blockchain.
+    \nLuca is an experienced public speaker and has very strong entrepreneurial characteristics and loves to inspire people to do the things that inspire them."""
+    speaking = [
+        "2017 Geneva, How to raise money in a digital world: ICO, Venture Capital, Business Angels, [Soft-Shake](http://www.soft-shake.ch)",
+        "2017 Prague, From a software company to a bank leader in online trading ready to tackle the FinTech revolution [Agilia Prague, Agile in Banking and Finance](https://agiliaprague.com/)",
+        "2016 Geneva, The Learning Organization, [Soft-Shake](http://www.soft-shake.ch)",
+        "2015 Geneva, Innovation in Large Enterprises, [Soft-Shake](http://www.soft-shake.ch)"
+      ]
+
+  # Contact form settings
+
+  [params.contact]
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    email = "your@email.com"
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+
+    #postURL = "https://example.com/mailout/"
+
+    enable = false
+    title = "Touch Me!"
+    namePlaceholder = "Name"
+    emailPlaceholder = "Email"
+    messagePlaceholder = "Message"
+    buttonText = "Send it"
+    success = "Thank you for contacting us."
+    error = "Message could not be send. Please contact us at "
+
+    # Google invisible captcha
+    #[params.contact.captcha]
+    #  sitekey = ""
+
+
+    # Add optional form fields to identify contact forms.
+    #[[params.contact.fields.hidden]]
+    #  name = "someID"
+    #  value = "example.com"
+
+    #[[params.contact.fields.hidden]]
+    # Special values for name such as "page" and "site" will be autofilled
+    #  name = "page"
+
+  # Social settings
+  # You may change these with your social links or add others
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter"
+    link = "https://twitter.com/lucamerolla"
+
+  [[params.social]]
+    title = "Instagram"
+    icon = "fa-linkedin"
+    link = "https://linkedin.com/in/lucamerolla/"
+    
+  [[params.social]]
+    title = "Slideshare"
+    icon = "fa-slideshare"
+    link = "https://www.slideshare.net/lucamerolla"
+
+  # Footer settings
+  [params.footer]
+    # If copyright is not set, author is used
+    #copyright = "Innovation inc"
+
+  # Page license
+  [params.license]
+    link = "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+    name = "CC-BY-SA-4.0"
+
+  # Credits
+  [[params.credits]]
+    # Title is used as URL text
+    title = "HTML5UP"
+    # Text will be used to explain the credit
+    text = "Design by"
+    link = "https://html5up.net"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Meta
+  author = "Luca Merolla"
+  description = "ICO Advisor, TGE Advisor, Busines Angel, Startup Coach, Startup Mentor, Innovation, Blockchain, FinTech, Machine Learning, AI, Artificial Intelligence"
+  email = ""
