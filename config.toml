@@ -33,7 +33,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
 
   # Link custom assets relative to /static
   #custom_js  = [""]
-  custom_css = ["/background.css"]
+  custom_css = ["/lucamerolla.com/background.css"]
 
   # Customization switches
   # Overwrite FontAwesome: see icons.css
