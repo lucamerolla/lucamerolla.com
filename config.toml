@@ -1,5 +1,5 @@
-#baseURL = "http://www.lucamerolla.com"
-baseURL = "https://lucamerolla.github.io/lucamerolla.com/"
+baseURL = "http://www.lucamerolla.com"
+#baseURL = "https://lucamerolla.github.io/lucamerolla.com/"
 languageCode = "en-us"
 title = "Luca Merolla - Personal Page"
 
@@ -33,7 +33,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
 
   # Link custom assets relative to /static
   #custom_js  = [""]
-  custom_css = ["/lucamerolla.com/background.css"]
+  custom_css = ["/background.css"]
 
   # Customization switches
   # Overwrite FontAwesome: see icons.css
