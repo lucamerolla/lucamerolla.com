@@ -24,7 +24,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
   # Site icons
   favicon_ico = "favicon.ico"
   favicon_ico_sizes = "16x16 32x32"
-  appleicon = "apple.png"
+  appleicon = "apple-touch-icon.png"
 
   # Additional options to supplement icons served
   #favicon_png = "favicon.png"
