@@ -50,6 +50,8 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     position = "ICO Advisor, Business Angel, Speaker, Startup Mentor, Blockchain Consultant"
     livesIn = "[St-Prex, Switzerland](https://www.google.ch/maps/place/Saint-Prex/@46.4658987,6.4035153,12z/data=!3m1!4b1!4m5!3m4!1s0x478c39b501ea0fe1:0xdc0de6e932131cda!8m2!3d46.4829113!4d6.4583435)"
     articles = [
+        "The Holmium Model: a crypto business model [(Medium)](https://medium.com/@lucamerolla/the-holmium-model-48b360459b9f)",
+        "Three takeaways from Crypto Immersion [(Medium)](https://medium.com/@lucamerolla/3-takeaways-from-my-crypto-immersion-459f1e6dc549)",
         "Grow a Culture of Innovation [(Linkedin)](https://www.linkedin.com/pulse/grow-culture-innovation-luca-merolla)",
         "The Agile Sprint Report Canvas [(Wordpress)] (https://lucamerolla.wordpress.com/2014/05/16/agile-sprint-report-canvas/)",
         "How to drive change in companies [(Linkedin)](https://www.linkedin.com/pulse/20140722200624-24854307-how-to-drive-change-in-companies)",
@@ -59,9 +61,10 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     biography = """Luca is very passionate about Innovation, Crypto Currencies and removing Learning inhibitors from organizations. Luca has a multi disciplinary background in the fields of information technology, business and management and holds a B.Sc. in IT Engineering and an MBA with specialization in international business and venture capital.
     \nDuring his career, Luca has had the opportunity and the privilege to work in different countries (Ireland, Netherlands, Italy and Switzerland) with fast growing start-ups, large enterprises and as well as consultant for a business incubator.
     \nLuca worked for Swissquote Bank where he was Vice-Director and Member of Senior Management. Luca has helped Swissquote in growing the offshore department up to approximately 150 people. Luca was in charge of the innovation committee which has organized 3 innovation contests (Battle Dev) with more than 100 employees involved in creating innovative ideas in a time-boxed event of 24 hours.
-    \nLuca is an ICO Advisor, Business Angel and startup mentor with strong interests in FinTech, Blockchain, Machine Learning and AI topics. Luca is currently CEO of Guruvest an Open Investment Platform which is preparing its Initial Coin Offering on Ethereum blockchain.
-    \nLuca is an experienced public speaker and has very strong entrepreneurial characteristics and loves to inspire people to do the things that inspire them."""
+    \nLuca has helped companies raising capital at seed and series A level or through ICOs. Luca has strong interests in the field of FinTech, Blockchain, Machine Learning and AI. Luca is currently CEO of Guruvest an Open Investment Platform which leverage blockchain technology through collective and artificial intelligence.
+    \nExperienced in public speaking, Luca has very strong entrepreneurial characteristics and loves to inspire people to do the things that inspire them."""
     speaking = [
+        "2018 Prague, Agile fundraising : The ICO roller coaster, [Agilia Prague](http://agiliaprague.com)",
         "2017 Geneva, How to raise money in a digital world: ICO, Venture Capital, Business Angels, [Soft-Shake](http://www.soft-shake.ch)",
         "2017 Prague, From a software company to a bank leader in online trading ready to tackle the FinTech revolution [Agilia Prague, Agile in Banking and Finance](https://agiliaprague.com/)",
         "2016 Geneva, The Learning Organization, [Soft-Shake](http://www.soft-shake.ch)",
@@ -132,6 +135,11 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     title = "Slideshare"
     icon = "fa-slideshare"
     link = "https://www.slideshare.net/lucamerolla"
+
+  [[params.social]]
+    title = "Medium"
+    icon = "fa-medium"
+    link = "https://medium.com/@lucamerolla"
 
   # Footer settings
   [params.footer]
