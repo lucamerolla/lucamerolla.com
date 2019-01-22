@@ -1,5 +1,4 @@
-baseURL = "http://www.lucamerolla.com"
-#baseURL = "https://lucamerolla.github.io/lucamerolla.com/"
+baseURL = "https://www.lucamerolla.com"
 languageCode = "en-us"
 title = "Luca Merolla - Personal Page"
 
