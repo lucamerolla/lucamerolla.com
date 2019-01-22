@@ -1,3 +1,9 @@
 [submodule "themes/hugo-identity-theme"]
 	path = themes/hugo-identity-theme
 	url = https://github.com/aerohub/hugo-identity-theme.git
+[submodule "themes/hugo-creative-portfolio-theme"]
+	path = themes/hugo-creative-portfolio-theme
+	url = https://github.com/kishaningithub/hugo-creative-portfolio-theme.git
+[submodule "themes/hugo-theme-sam"]
+	path = themes/hugo-theme-sam
+	url = https://github.com/vickylai/hugo-theme-sam.git
