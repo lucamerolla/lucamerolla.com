@@ -46,7 +46,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     name = "Luca Merolla"
     # Avatars can be written to images/avatars/
     avatar = "/895-squared.jpg"
-    position = "FinTech Expert, Strategy Advisor, Startup Mentor, Public Speaker, Early Stage Investor"
+    position = "Managing Partner at [Guru Capital](http://www.gurucapital.com) - FinTech Expert, Public Speaker, Early Stage Investor"
     livesIn = "[St-Prex, Switzerland](https://www.google.ch/maps/place/Saint-Prex/@46.4658987,6.4035153,12z/data=!3m1!4b1!4m5!3m4!1s0x478c39b501ea0fe1:0xdc0de6e932131cda!8m2!3d46.4829113!4d6.4583435)"
     articles = [
         "Confessions of a Crypto Junkie #1 : Liquidity, Marketing and Value [(Medium)](https://medium.com/datadriveninvestor/confessions-of-a-crypto-junkie-1-liquidity-marketing-and-value-53e6323376ff)",
@@ -58,10 +58,11 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
         "Why is innovation so important? [(Linkedin)](https://www.linkedin.com/pulse/why-innovation-so-important-luca-merolla)",
         "How by NOT asking questions can help to grow a team [(Linkedin)](https://www.linkedin.com/pulse/20140902221203-24854307-how-by-not-asking-questions-will-help-a-team-to-grow)"
       ]
-    biography = """Luca is very passionate about Innovation, Crypto Currencies and removing Learning inhibitors from organizations. Luca has a multi disciplinary background in the fields of information technology, business and management and holds a B.Sc. in IT Engineering and an MBA with specialization in international business and venture capital.
-    \nDuring his career, Luca has had the opportunity and the privilege to work in different countries (Ireland, Netherlands, Italy and Switzerland) with fast growing start-ups, large enterprises and as well as consultant for a business incubator.
-    \nLuca worked for Swissquote Bank where he was Vice-Director and Member of Senior Management. Luca has helped Swissquote in growing the offshore department up to approximately 150 people. Luca was in charge of the innovation committee which has organized 3 innovation contests (Battle Dev) with more than 100 employees involved in creating innovative ideas in a time-boxed event of 24 hours.
-    \nLuca has helped companies raising capital at Seed and Series A level or through ICOs. Luca has strong interests in the field of FinTech, Blockchain, Machine Learning and Artificial Intelligence.
+    biography = """Luca is very passionate about innovation, crypto currencies and removing learning inhibitors from organizations. Luca has a multi disciplinary background in the fields of computer science, business and management and holds a MBA with specialization in international business and venture capital.
+    \nDuring his career, Luca has had the opportunity and the privilege to work in different countries (Ireland, Netherlands, Italy and Switzerland) with fast growing start-ups, large enterprises and business incubators.
+    \nLuca worked at Swissquote Bank where he was Vice-Director and Member of Senior Management. Luca has helped the company in growing the offshore department up to approximately 150 people and led the Forex division in Software Development department where he was responsible of the development of all the new Forex projects and products. Luca was in charge of the innovation committee which has organized 3 innovation contests (Battle Dev) with more than 100 employees involved in creating innovative ideas in a time-boxed event of 24 hours.
+    \nAs an active business angel with a strong interest in innovation and startup financing,, Luca has helped companies raising capital at early stages (Seed, Series A and ICOs).
+    \nLuca has strong interests in the field of FinTech, Blockchain, Artificial Intelligence and Sustainability.
     \nExperienced in public speaking, Luca has very strong entrepreneurial characteristics and loves to inspire people to do the things that inspire them."""
     speaking = [
         "2018 Prague, Agile fundraising : The ICO roller coaster, [Agilia Prague](http://agiliaprague.com)",
